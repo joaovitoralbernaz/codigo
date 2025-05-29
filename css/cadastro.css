@@ -19,8 +19,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #e9e7e7;
-    box-shadow: 0 6px 12px #670f2290;
+    background-color: #1f1f1f;
+    box-shadow: 0 6px 12px #bb00005b;
     color: white;
     position: relative;
 }
@@ -49,7 +49,7 @@ header {
 .hamburger-menu span {
     width: 25px;
     height: 3px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     margin: 3px 0;
     transition: 0.3s;
     border-radius: 2px;
@@ -76,7 +76,7 @@ header {
 }
 
 .nav-links a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 500;
     padding: 0.5rem;
@@ -142,13 +142,13 @@ main {
     border: none;
     border-radius: 4px;
     text-decoration: none;
-    font-weight: lighter;
-    cursor: pointer;
+    
     transition: background-color 0.3s;
 }
 
+
 .back-btn:hover {
-    background-color: #FC2C2C;
+    background-color: #a5a5a5e8;
     color: white;
 }
 
